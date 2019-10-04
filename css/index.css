@@ -197,18 +197,36 @@ header {
 .middleAbout {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutInfo {
+    margin: 0 0 15% 0;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 .topMiddle {
-    width: 48%
-    
+    width: 48%;
 }
 .bottomMiddle {
     width: 48%;
 }
 
+.middleParagraph {
+    margin: 10px 0 15px 0;
+}
 
+button {
+    height:40px;
+    width: 35%;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
 
-
+.workTogether {
+    margin: 0 0 50px;
+    padding-left: 5px;
+}
 /* end of about page */
 
 footer {
