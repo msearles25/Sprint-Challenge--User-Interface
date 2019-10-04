@@ -194,6 +194,19 @@ header {
     border-bottom: 1px dashed black;
 }
 
+.middleAbout {
+    display: flex;
+    flex-wrap: wrap;
+}
+.topMiddle {
+    width: 48%
+    
+}
+.bottomMiddle {
+    width: 48%;
+}
+
+
 
 
 /* end of about page */
